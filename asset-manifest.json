@@ -1,32 +1,16 @@
-<<<<<<< HEAD
 {
   "files": {
-    "main.css": "/static/css/main.4181b985.chunk.css",
-    "main.js": "/static/js/main.0dde1e68.chunk.js",
-    "main.js.map": "/static/js/main.0dde1e68.chunk.js.map",
+    "main.css": "/static/css/main.a125df78.chunk.css",
+    "main.js": "/static/js/main.c2612415.chunk.js",
+    "main.js.map": "/static/js/main.c2612415.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.e29d3923.chunk.js": "/static/js/2.e29d3923.chunk.js",
-    "static/js/2.e29d3923.chunk.js.map": "/static/js/2.e29d3923.chunk.js.map",
+    "static/js/2.0c694886.chunk.js": "/static/js/2.0c694886.chunk.js",
+    "static/js/2.0c694886.chunk.js.map": "/static/js/2.0c694886.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9afd384d66ec23a37db93a2459a971cb.js": "/precache-manifest.9afd384d66ec23a37db93a2459a971cb.js",
+    "precache-manifest.8f7753f3ab7ed6b01decfdc477715329.js": "/precache-manifest.8f7753f3ab7ed6b01decfdc477715329.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.4181b985.chunk.css.map": "/static/css/main.4181b985.chunk.css.map"
+    "static/css/main.a125df78.chunk.css.map": "/static/css/main.a125df78.chunk.css.map",
+    "static/media/wi-cloud.svg": "/static/media/wi-cloud.cd7a2f14.svg"
   }
-=======
-{
-  "files": {
-    "main.css": "/weather-app/static/css/main.2680dfa7.chunk.css",
-    "main.js": "/weather-app/static/js/main.47c0bd26.chunk.js",
-    "main.js.map": "/weather-app/static/js/main.47c0bd26.chunk.js.map",
-    "runtime~main.js": "/weather-app/static/js/runtime~main.4606d7f5.js",
-    "runtime~main.js.map": "/weather-app/static/js/runtime~main.4606d7f5.js.map",
-    "static/js/2.3310f33a.chunk.js": "/weather-app/static/js/2.3310f33a.chunk.js",
-    "static/js/2.3310f33a.chunk.js.map": "/weather-app/static/js/2.3310f33a.chunk.js.map",
-    "index.html": "/weather-app/index.html",
-    "precache-manifest.1c0bd897b03a74fa5ab624dcf2b098a3.js": "/weather-app/precache-manifest.1c0bd897b03a74fa5ab624dcf2b098a3.js",
-    "service-worker.js": "/weather-app/service-worker.js",
-    "static/css/main.2680dfa7.chunk.css.map": "/weather-app/static/css/main.2680dfa7.chunk.css.map"
-  }
->>>>>>> 4f97a9f9267ef244c8e1e7fd1ab6d656c612e4cf
 }
