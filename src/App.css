@@ -1,0 +1,20 @@
+ @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+.App {
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+}
+.Head {
+	margin-top: 70px;
+	margin-bottom:0px;
+}
+.Slide {
+position: relative;
+    max-width: 1000px;
+	min-width:500px;
+	height:300px;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+

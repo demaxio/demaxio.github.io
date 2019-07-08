@@ -1,0 +1,48 @@
+
+.Slider {
+	padding: 0px 0px;
+	height:320px;
+	width: calc(100% - 200px);
+	display: inline-block;
+	background-color: rgb(244,244,244);
+	transition: transform 0.6s ease;
+}
+.Left {	
+	padding: 20px 0px;
+	height:300px;
+	width: 100px;
+	display: inline-block;
+}
+@media screen and (max-width: 600px) {
+    .Left {width: 35px;}
+   }
+.Right{
+	padding: 30px 0px;
+	height:300px;
+	width: 100px;
+	display: inline-block;
+}
+@media screen and (max-width: 600px) {
+    .Right {width: 85px;}
+   }
+.contaner{
+transition: transform 0.2s ease;
+width: calc(100%);
+display: flex;
+}
+.Arrow1 {
+	position: relative;
+    top: 100px;
+	cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+    .Arrow1 {width: 25px;}
+   }
+.Arrow2 {
+	position: relative;
+    top: 100px;
+	cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+    .Arrow2 {width: 200px;}
+   }

@@ -1,0 +1,76 @@
+var now = new Date();
+export var dayNames = new Array("Воскресенье","Понедельник","Вторник","Среда","Четверг","Пятница","Суббота","Воскресенье");
+export var now = new Date();
+var textout;
+var temperature_day;
+var temperature_night;
+var img = new Image();
+var stat;
+var stat2;
+
+var month = now.getMonth();
+var date = now.getDate();
+textout = date;
+if (month==0) textout+=" января";
+if (month==1) textout+=" февраля";
+if (month==2) textout+=" марта";
+if (month==3) textout+=" апреля";
+if (month==4) textout+=" мая";
+if (month==5) textout+=" июня";
+if (month==6) textout+=" июля";
+if (month==7) textout+=" августа";
+if (month==8) textout+=" сентября";
+if (month==9) textout+=" октября";
+if (month==10) textout+=" ноября";
+if (month==11) textout+=" декабря";
+	export var day =  (textout);
+	
+
+var date = now.getDate()+1;
+textout = date;
+if (month==0) textout+=" января";
+	if (month==1) textout+=" февраля";
+	if (month==2) textout+=" марта";
+	if (month==3) textout+=" апреля";
+	if (month==4) textout+=" мая";
+	if (month==5) textout+=" июня";
+	if (month==6) textout+=" июля";
+	if (month==7) textout+=" августа";
+	if (month==8) textout+=" сентября";
+	if (month==9) textout+=" октября";
+	if (month==10) textout+=" ноября";
+	if (month==11) textout+=" декабря";
+export var day1 =  (textout);
+
+var date = now.getDate()+2;
+textout = date;
+if (month==0) textout+=" января";
+if (month==1) textout+=" февраля";
+if (month==2) textout+=" марта";
+if (month==3) textout+=" апреля";
+if (month==4) textout+=" мая";
+if (month==5) textout+=" июня";
+if (month==6) textout+=" июля";
+if (month==7) textout+=" августа";
+if (month==8) textout+=" сентября";
+if (month==9) textout+=" октября";
+if (month==10) textout+=" ноября";
+if (month==11) textout+=" декабря";
+export var day2 =  (textout);
+
+
+var date = now.getDate()+3;
+textout = date;
+if (month==0) textout+=" января";
+if (month==1) textout+=" февраля";
+if (month==2) textout+=" марта";
+if (month==3) textout+=" апреля";
+if (month==4) textout+=" мая";
+if (month==5) textout+=" июня";
+if (month==6) textout+=" июля";
+if (month==7) textout+=" августа";
+if (month==8) textout+=" сентября";
+if (month==9) textout+=" октября";
+if (month==10) textout+=" ноября";
+if (month==11) textout+=" декабря";
+export var day3 =  (textout);
