@@ -43,6 +43,7 @@ var temperature_night = getRandomInt(20, 26);
 		<img src ={img}/>
 		<br></br>
 		<h4> днем +{temperature_day}<sup>o</sup></h4>
+		<br></br>
 		<h5> ночью +{temperature_night}<sup>o</sup></h5>
 		<div className={class_item.Sub}>
 			<center><h6>{sub}</h6></center>

@@ -2,10 +2,11 @@
 .App {
 font-family: 'Roboto', sans-serif;
 font-size: 16px;
+max-width: 100%;
 }
 .Head {
 	margin-top: 70px;
-	margin-bottom:0px;
+	margin-bottom:30px;
 }
 .Slide {
 position: relative;
