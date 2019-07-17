@@ -20,11 +20,8 @@ let class_slider= {
 'Arrow1':'Slide_Arrow1__1VRgd',
 'Arrow2':'Slide_Arrow2__h2XFx'
 }
-const Up = ()=> {
-}
 const Slide = (props) => {
 var name_day = dayNames[now.getDay()];
-let ip = {index};
 	return (
 		<div id="myCarousel" class ="carousel slide"> 
 			<div className={class_slider.Slider} class="carousel-inner">
