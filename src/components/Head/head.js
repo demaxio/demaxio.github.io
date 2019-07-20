@@ -5,7 +5,6 @@ let class_header= {
 var now = new Date();
 var dayNames = new Array("Воскресенье","Понедельник","Вторник","Среда","Четверг","Пятница","Суббота");
 
-//определяем месяц
 var now = new Date();
 var textout;
 var month = now.getMonth();
