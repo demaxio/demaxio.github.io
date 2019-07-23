@@ -1,4 +1,8 @@
-
+@media screen and (max-width: 600px){ 
+.wrapper {
+width: 600px;
+display: inline-block;
+}}
 .Slider {
 	padding: 0px 0px;
 	height:320px;
@@ -12,7 +16,8 @@
 	display: inline-block;
 }
 @media screen and (max-width: 600px) {
-    .Left {width: 35px;}
+    .Left {width: 35px;
+	display: inline-block;}
    }
 .Right{
 	padding: 30px 0px;
@@ -20,19 +25,26 @@
 	display: inline-block;
 }
 @media screen and (max-width: 600px) {
-    .Right {width: 85px;}
+    .Right {width: 85px;
+	display: inline-block;}
    }
 
 .Item{
-padding-left:100px;
-width: 900px;
+left: 50px;
+max-width:850px;
 display: flex;
+position:relative;
 }
+@media screen and (max-width: 600px) {
+	.Item{
+		left: 40px;
+		max-width:500px;
+}}
 .Arrow1 {
 	position: relative;
 	display: inline-block;
     top: -200px;
-	right: 420px;
+	right: 450px;
 	cursor: pointer;
 }
 @media screen and (max-width: 1000px) {
@@ -42,11 +54,13 @@ display: flex;
    }
  @media screen and (min-width: 800px) and (max-width: 999px)  {
     .Arrow1 {width: 200px;
-	right:380px;}
+	right:380px;
+	display: inline-block;}
    }
 @media screen and (max-width: 800px) {
    .Arrow1 {width: 200px;
-right: 300px;}
+right: 320px;
+display: inline-block;}
    }
 .Arrow2 {
 	position: relative;
@@ -61,9 +75,11 @@ right: 300px;}
    }
  @media screen and (min-width: 800px) and (max-width: 900px)  {
     .Arrow2 {width: 200px;
-	left: 250px;}
+	left: 250px;
+	display: inline-block;}
    }
 @media screen and (max-width: 800px) {
    .Arrow2 {width: 200px;
-left: 200px;}
+left: 200px;
+display: inline-block;}
    }
