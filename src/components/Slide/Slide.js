@@ -47,16 +47,14 @@ const Slide = (props) => {
 						</div>
 					</div>
 			</div>
-			<div className={class_slider.Left} href="#myCarousel" data-slide="prev">
-					<div className ={class_slider.Arrow1}>
+					<div className ={class_slider.Arrow1}
+					href="#myCarousel" data-slide="prev">
 						<img src={arrow_1}/>
 					</div>
-				</div>
-				<div className ={class_slider.Right} href="#myCarousel" data-slide="next">
-					<div className ={class_slider.Arrow2}>
+					<div className ={class_slider.Arrow2}
+					href="#myCarousel" data-slide="next">
 						<img src={arrow_2}/>
 					</div>
-				</div>
 		</div>
 	);
 }

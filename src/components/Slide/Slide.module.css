@@ -1,85 +1,87 @@
-@media screen and (max-width: 600px){ 
-.wrapper {
-width: 600px;
-display: inline-block;
-}}
 .Slider {
 	padding: 0px 0px;
-	height:320px;
-	width: calc(100% - 200px);
+	height:300px;
+	width: calc(100% - 300px);
 	display: inline-block;
 	background-color: rgb(244,244,244);
 }
-.Left {	
-	padding: 20px 0px;
-	width: 100px;
-	display: inline-block;
-}
-@media screen and (max-width: 600px) {
-    .Left {width: 35px;
-	display: inline-block;}
-   }
-.Right{
-	padding: 30px 0px;
-	width: 100px;
-	display: inline-block;
-}
-@media screen and (max-width: 600px) {
-    .Right {width: 85px;
-	display: inline-block;}
-   }
-
 .Item{
-left: 50px;
-max-width:850px;
+left:calc(50% - 350px);
+max-width:calc(75% - 180px);
 display: flex;
 position:relative;
 }
 @media screen and (max-width: 600px) {
-	.Item{
-		left: 40px;
-		max-width:500px;
-}}
+.Item{
+left:calc(35% - 140px);
+max-width:calc(80% - 20px);}}
+
+@media screen and (min-width: 600px) and (max-width: 700px)  {
+.Item{
+left:calc(30% - 120px);
+max-width:calc(80% - 40px);}}
+
+@media screen and (min-width: 700px) and (max-width: 800px)  {
+.Item{
+left:calc(30% - 120px);
+max-width:calc(80% - 80px);}}
+
+@media screen and (min-width: 800px) and (max-width: 900px) {
+.Item{
+left:calc(25% - 100px);
+max-width:calc(75% - 40px);}}
+
+@media screen and (min-width: 900px) and (max-width: 1000px) {
+.Item{
+left:calc(25% - 100px);
+max-width:calc(75% - 40px);}} 
+@media screen and (min-width: 1000px) and (max-width: 1100px) {
+.Item{
+left:calc(25% - 100px);
+max-width:calc(70% - 20px);}}
+@media screen and (min-width: 1100px) and (max-width: 1200px) {
+.Item{
+left:calc(25% - 80px);}}    
+@media screen and (min-width: 1200px) {
+.Item{
+left:calc(20% - 10px);}}    
+
 .Arrow1 {
 	position: relative;
 	display: inline-block;
-    top: -200px;
-	right: 450px;
+    top: -180px;
+	right:calc(50% - 200px);
 	cursor: pointer;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
     
  .Arrow1 {width: 0px;
-	right: 420px;}
+	right:calc(50% - 100px);}
    }
- @media screen and (min-width: 800px) and (max-width: 999px)  {
-    .Arrow1 {width: 200px;
-	right:380px;
-	display: inline-block;}
+@media screen and (max-width: 1200px) {
+    
+ .Arrow1 {width: 0px;
+	right:calc(50% - 130px);}
    }
-@media screen and (max-width: 800px) {
-   .Arrow1 {width: 200px;
-right: 320px;
-display: inline-block;}
+@media screen and (max-width: 900px) {
+    
+ .Arrow1 {width: 0px;
+	right:calc(50% - 30px);}
    }
+
 .Arrow2 {
 	position: relative;
 	display: inline-block;
-    top: -200px;
-	left: 420px;
+    top: -180px;
+	left: calc(35% - 20px);
 	cursor: pointer;
 }
-@media screen and (max-width: 1000px) {
-    .Arrow2 {width: 200px;
-	left: 300px;}
+@media screen and (max-width: 1100px) {
+    .Arrow2 {
+	left: calc(40%);}
    }
- @media screen and (min-width: 800px) and (max-width: 900px)  {
-    .Arrow2 {width: 200px;
-	left: 250px;
-	display: inline-block;}
-   }
-@media screen and (max-width: 800px) {
-   .Arrow2 {width: 200px;
-left: 200px;
-display: inline-block;}
+@media screen and (max-width: 700px) {
+    
+ .Arrow2 {width: 0px;
+	right:calc(40%-40px);}
    }
