@@ -1,7 +1,7 @@
 .Item{
 height: 300px; 
-width:180px;
-min-width:100px;
+width:calc(50%);
+min-width:calc(20%);
 background-color: white;
 padding: 15px;
 flex: 0 0 25%;
@@ -26,6 +26,13 @@ height: auto;
 	height: auto;
 	}
 }
+@media screen and (max-width: 800px) {
+   img {
+	max-width: 50px;
+	max-height: 50px;
+	height: auto;
+	}
+}
 h3 {
 font-family: 'Roboto', sans-serif;
 font-size: 30px;
@@ -34,7 +41,11 @@ font-weight: 500;
 }
 @media screen and (max-width: 600px) {
    h3 {line-height: 40px;
-   font-size: 20px;}
+   font-size: 18px;}
+   }
+@media screen and (max-width: 800px) {
+   h3 {line-height: 20px;
+   font-size: 24px;}
    }
 h4{
 font-family: 'Roboto', sans-serif;
@@ -45,6 +56,10 @@ font-weight: 600;
 @media screen and (max-width: 600px) {
    h4 {line-height: 30px;
    font-size: 15px;}
+   }
+@media screen and (max-width: 800px) {
+   h4 {line-height: 30px;
+   font-size: 20px;}
    }
 h5 {
 font-family: 'Roboto', sans-serif;
@@ -58,7 +73,10 @@ line-height: 26px;
    h5 {line-height: 15px;
    font-size: 12px;}
    }
-
+@media screen and (max-width: 800px) {
+   h5 {line-height: 20px;
+   font-size: 14px;}
+   }
 h7{
 font-family: 'Roboto', sans-serif;
 font-size: 14px;
@@ -80,6 +98,10 @@ text-decoration:none;
    span {line-height: 13px;
    font-size: 12px;}
    }
+@media screen and (max-width: 800px) {
+   span {line-height: 10px;
+   font-size: 13px;}
+   }   
 h6 {
 font-family: 'Roboto', sans-serif;
 font-size: 13px;
@@ -92,3 +114,7 @@ text-decoration:none;
    h6 {line-height: 13px;
    font-size: 13px;}
    }
+@media screen and (max-width: 600px) {
+   h6 {line-height: 15px;
+   font-size: 13px;}
+   }   
