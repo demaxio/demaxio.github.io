@@ -8,13 +8,14 @@ import {temperature_night} from './Item/getWeather.js';
 import {dayNames} from './Item/getWeek.js'
 import {now} from './Item/getWeek.js';
 import {days} from './Item/getWeek.js';
+import './Item/item.module.css';
 let class_slider= {
-'Slider':'Slide_Slider__1khaz',
-'Left':'Slide_Left__3hcVX',
-'Right':'Slide_Right__1yrY1',
-'Item':'Slide_Item__K8ODJ',
-'Arrow1':'Slide_Arrow1__1VRgd',
-'Arrow2':'Slide_Arrow2__h2XFx'
+	'Slider':'Slide_Slider__1khaz',
+	'Left':'Slide_Left__3hcVX',
+	'Right':'Slide_Right__1yrY1',
+	'Item':'Slide_Item__K8ODJ',
+	'Arrow1':'Slide_Arrow1__1VRgd',
+	'Arrow2':'Slide_Arrow2__h2XFx'
 }
 const Slide = (props) => {
 
@@ -24,7 +25,7 @@ const Slide = (props) => {
 			<div className={class_slider.Slider} class="carousel-inner">
 					<div class = "item active" >
 						<div className = {class_slider.Item}>
-							<Item day={days[0]} name_day ="Сегодня"/>
+							<Item day={days[0]} name_day =<h5>Сегодня</h5>/>
 							<Item day={days[1]} name_day ={dayNames[0]}/>
 							<Item day={days[2]} name_day ={dayNames[1]}/>
 							<Item day={days[3]} name_day ={dayNames[2]}/>
