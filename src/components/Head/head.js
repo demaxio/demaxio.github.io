@@ -1,6 +1,6 @@
 import React from 'react';
 let class_header= {
-'header': 'head_header__29DvD'
+	'header': 'head_header__29DvD'
 }
 var now = new Date();
 var dayNames = new Array("Воскресенье","Понедельник","Вторник","Среда","Четверг","Пятница","Суббота");

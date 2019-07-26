@@ -1,3 +1,4 @@
+/*задний фон*/
 .Slider {
 	padding: 0px 0px;
 	height:300px;
@@ -5,70 +6,96 @@
 	display: inline-block;
 	background-color: rgb(244,244,244);
 }
+
+/*Карточка*/
 .Item{
-left:calc(50% - 350px);
-max-width:calc(75% - 180px);
-display: flex;
-position:relative;
+	left:calc(50% - 350px);
+	max-width:calc(75% - 180px);
+	display: flex;
+	position:relative;
 }
+
 @media screen and (max-width: 600px) {
 .Item{
-left:calc(35% - 140px);
-max-width:calc(80% - 20px);}}
-
+	left:calc(35% - 140px);
+	max-width:calc(80% - 20px);
+	}
+}
 @media screen and (min-width: 600px) and (max-width: 700px)  {
 .Item{
-left:calc(30% - 120px);
-max-width:calc(80% - 40px);}}
-
+	left:calc(30% - 120px);
+	max-width:calc(80% - 40px);
+	}
+}
 @media screen and (min-width: 700px) and (max-width: 800px)  {
 .Item{
-left:calc(30% - 120px);
-max-width:calc(80% - 80px);}}
-
+	left:calc(30% - 120px);
+	max-width:calc(80% - 80px);
+	}
+}
 @media screen and (min-width: 800px) and (max-width: 900px) {
 .Item{
-left:calc(25% - 100px);
-max-width:calc(75% - 40px);}}
-
+	left:calc(25% - 100px);
+	max-width:calc(75% - 40px);
+	}
+}
 @media screen and (min-width: 900px) and (max-width: 1000px) {
 .Item{
-left:calc(25% - 100px);
-max-width:calc(75% - 40px);}} 
+	left:calc(25% - 100px);
+	max-width:calc(75% - 40px);
+	}
+} 
+
 @media screen and (min-width: 1000px) and (max-width: 1100px) {
 .Item{
-left:calc(25% - 100px);
-max-width:calc(70% - 20px);}}
+	left:calc(25% - 100px);
+	max-width:calc(70% - 20px);
+	}
+}
 @media screen and (min-width: 1100px) and (max-width: 1200px) {
 .Item{
-left:calc(25% - 80px);}}    
+	left:calc(25% - 80px);
+	}
+}    
 @media screen and (min-width: 1200px) {
 .Item{
-left:calc(20% - 10px);}}    
+	left:calc(20% - 10px);}
+}    
 
+/*Стрелка левая*/
 .Arrow1 {
 	position: relative;
 	display: inline-block;
     top: -180px;
-	right:calc(50% - 200px);
+	right:calc(50% - 220px);
 	cursor: pointer;
 }
-@media screen and (max-width: 1100px) {
-    
- .Arrow1 {width: 0px;
-	right:calc(50% - 100px);}
-   }
 @media screen and (max-width: 1200px) {
-    
- .Arrow1 {width: 0px;
-	right:calc(50% - 130px);}
-   }
+.Arrow1 {
+	width: 0px;
+	right:calc(50% - 130px);
+	}
+}
+@media screen and (max-width: 1100px) {   
+.Arrow1 {
+	width: 0px;
+	right:calc(50% - 110px);
+	}
+}
 @media screen and (max-width: 900px) {
-    
- .Arrow1 {width: 0px;
-	right:calc(50% - 30px);}
-   }
+.Arrow1 {
+	width: 0px;
+	right:calc(50% - 50px);
+	}
+}
+@media screen and (max-width: 700px) {
+.Arrow1 {
+	width: 0px;
+	right:calc(50% - 20px);
+	}
+}
 
+/*Стрелка правая*/
 .Arrow2 {
 	position: relative;
 	display: inline-block;
@@ -77,11 +104,13 @@ left:calc(20% - 10px);}}
 	cursor: pointer;
 }
 @media screen and (max-width: 1100px) {
-    .Arrow2 {
-	left: calc(40%);}
-   }
-@media screen and (max-width: 700px) {
-    
- .Arrow2 {width: 0px;
-	right:calc(40%-40px);}
-   }
+.Arrow2 {
+	left: calc(40%);
+	}
+}
+@media screen and (max-width: 700px) {    
+.Arrow2 {
+	width: 0px;
+	right:calc(40%-40px);
+	}
+}
